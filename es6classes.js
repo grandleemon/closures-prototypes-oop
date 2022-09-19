@@ -1,8 +1,8 @@
 class Movie {
-    constructor(title, runtime, series) {
+    constructor(title, runtime, isSeries) {
         this.title = title
         this.runtime = runtime
-        this.series = series
+        this.isSeries = isSeries
     }
 
     addToFavorite() {
